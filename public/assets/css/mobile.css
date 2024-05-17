@@ -1,0 +1,96 @@
+@media screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        max-width: 100% !important;
+    }
+    /*Menu de navegação*/
+    .menu-main{
+       border-radius: 0;
+       max-width: 100%;
+       margin-left: -3px !important;
+    }
+
+    /*Página Home*/
+    .content{ width: 95% !important;}
+    .content label{ margin-top: 10%;}
+    .content p{text-align: justify;}
+    .desc-pro{ margin-left: 12%;}
+    #desc{ margin-left: 5%;}
+
+    #div-btn-contateme{
+        justify-content: center;
+    }
+    .div-btn-projetos{
+        margin-top: -2px;
+        justify-content: center;
+    }
+
+    /*Página Sobre*/
+    .conteudo-sobre{ 
+        margin:0
+    }
+    .conteudo-sobre p{
+        font-size: 20px;
+    }
+    .conteudo-sobre > .div-img-avatar{
+        justify-content: center;
+    }
+    .conteudo-sobre > .div-img-avatar > #img-avatar{
+        text-align: center;
+    }
+
+    .div-btn-cv{
+        width: 230px;
+        margin-left: 40px;
+    }
+
+    /*Página de Projetos*/
+    .card{
+        margin-left: 30px;
+    }
+
+    /*Página Contato*/
+    #div-form{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .meios-de-contato{
+        display: block;
+        width: 100%;
+    }
+
+    .meios-de-contato > .div-inputs{
+        margin-top: 10px;
+        width: 100%; 
+    }
+    
+    .meios-de-contato > #div-input-telefone{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    #div-input-email, #div-input-telefone input{
+        width: 100%;
+    }
+
+    #fieldset { 
+        font-size: 18px !important;
+        margin-left: 0;
+        margin-top: 3px;
+    }
+    #div-input-assunto, #div-input-mensagem { margin-top: 10px;}
+
+    /*Footer - Rodapé*/
+    #footer{
+        width: 100%;
+    }
+
+    #footer p > span{
+        display: block;
+    }
+
+    #footer ul{
+        margin-right: 40%;
+    }
+}
